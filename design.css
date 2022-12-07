@@ -1,0 +1,58 @@
+html{
+		font-family: Courier New;
+	}
+	body{
+		background-color: #365194;
+		background-image: url('bground4.png');
+		background-repeat: no-repeat;
+		background-attachment: fixed;
+		background-size: cover;
+		color: #253354;
+	}
+	li {
+		display: inline;
+		float: left;
+	}
+	ul {
+		list-style-type: none;
+		margin: 0;
+		padding: 0;
+		overflow: hidden;
+		background-color: #333;
+	}
+	
+	a {
+		display: block;
+		
+	}
+	li a {
+		display: block;
+		color: #F2F3F4;
+		text-align: center;
+		padding: 14px 16px;
+		text-decoration: none;
+	}
+	li a:hover {
+		background-color: #111;
+	}
+	th, td{
+		padding: 50px;
+		border-spacing: 50px;
+		padding-right: 30px;
+		border-bottom: 1px solid #ddd;
+		
+	}
+	
+	table{
+		background-color: #F2F3F4;
+		 -moz-border-radius: 5px;
+		border-collapse: collapse;
+		border: none;
+	}
+	table {
+		border-radius: 25px;
+		background: #F2F3F4;
+		padding: 20px;
+		width: 200px;
+		height: 150px;
+	}

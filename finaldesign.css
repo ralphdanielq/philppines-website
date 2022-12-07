@@ -1,0 +1,539 @@
+/* CSS */
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Poppins', sans-serif;
+}
+html, body{
+	height: 100%;
+	background: white;
+	background-image: url("abaca.jpg");
+	background-repeat: repeat;
+	background-attachment: fixed;
+	font-family: Verdana, Helvetica, Palatino;
+}
+/* HEADER*/
+.header {
+	width: 100%;
+	position: fixed;
+	background-color: white;
+	box-shadow: 0 2px 5px #000; 
+	padding-right:100%;
+}
+.logo-icon{
+	width: 70px;
+	height: 70px;
+	padding: 5px;
+}.logo-icon2{
+	width: 139px;
+	height: 63px;
+}
+.logo-icon3{
+	width: 200px;
+	height: 63px;
+}
+.logo-icon4{
+	width: 140px;
+	height: 140px;
+}
+header{
+	background-image: url("home-mayon.jpg");
+	width: 100%;
+	height: 100%;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+header h1{
+	padding-top: 100px;
+	text-align: center;
+	float: center;
+	color: white;
+	text-shadow: black 1px 0 10px;
+}
+
+/* NAV SIDE BAR */
+.container{
+	height: 100%;
+	position: fixed;
+
+}
+.containter div {
+	display: flex;
+	height: 60px;
+	background-color: gray;
+	box-shadow: 0 2px 5px #000; 
+}
+.container div label{
+	font-size: 2.3em;
+	heigth: 100%;
+	width: 60px;
+	line-height: 0;
+	text-align: center;
+	cursor: pointer;
+	transition: .5s ease;
+	padding-left: 10px;
+	padding-bottom:20px;
+	padding-top:20px;
+	padding-right:10px;
+	background-color: white;
+}
+.container div label:hover{
+	background-color: gray;
+}
+input[type=checkbox]{
+	display:none;
+}
+.container nav{
+	position: absolute;
+	top: 42px;
+	bottom: 0;
+	width: 0;
+	background: #FBB24B;
+	box-shadow: 2px 5px 5px #000;
+	overflow: hidden;
+	transition: .5s ease;
+}
+.containter nav ul li a {
+	display: flex;
+	align-items: center;
+	font-size: 1.2em;
+	color: black;
+	text-decoration: none;
+	text-transformation: capitalize;
+	padding: 10px 30px;
+	height: 50px;
+	transition: .5s ease;
+}
+.container nav ul li a:hover{
+	background: gray;
+	color: white;
+	
+}
+input[type=checkbox]:checked ~ nav{
+	width: 250px;
+}
+li{
+	padding: 10px 0;
+	list-style-type: none;
+}
+li a{
+	color: black; /* nav text color */
+	text-decoration: none;
+	padding: 10px 14px;
+	display: flex;
+	align-items: center;
+	
+}
+li a i{
+	font-size: 22px;
+	margin-right: 20px;
+	
+}
+.about-dropdown{
+	
+	background: #FDD59D;
+	text-align: right;
+}
+.about-dropdown li a{
+	align-items: right;
+	font-size: 15px;
+	padding-top: 1px;
+	padding-bottom: 1px;
+}
+.about-dropdown li a:hover{
+	background: white;
+	color: none;
+}
+
+/* FOOTER */
+.footer {
+  position: static;
+  left: 0;
+  bottom: 0;
+  height: 55%;
+  width: 100%;
+  background-color: #FBB24B;
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
+.footer-nav{
+
+	font-size: 12px;
+	line-height: 0;
+	text-align: left;
+	  
+}
+
+.footer-login button {   
+		background-color: #4CAF50;   
+		width: 50%;  
+		float: right;  
+        color: orange;   
+        padding: 15px;   
+        margin: 10px 0px;   
+        border: none;   
+        cursor: pointer;   
+         }   
+.footer-login form {   
+        border: 3px solid #f1f1f1;   
+    }   
+.footer-login input[type=text], input[type=password] {   
+        width: 70%;   
+        margin: 8px 0;  
+        padding: 12px 20px;   
+        display: inline-block;   
+        border: 2px solid green;   
+        box-sizing: border-box;   
+    }  
+.footer-login button:hover {   
+        opacity: 0.7;   
+    }   
+.footer-login  .cancelbtn {   
+        width: auto;   
+        padding: 10px 18px;  
+        margin: 10px 5px;  
+    }   
+        
+     
+.footer-login{   
+        padding: 25px;   
+        background-color: gray;  
+    }
+
+
+/* ABOUT - CONTENT CSS */
+
+.about {
+	position: static;
+	background-color: white;
+	top: 100%;
+	width: 50%;
+	
+	text-align: center;
+	margin: 0 auto;
+	padding-top: 50px;
+	padding-right: 50px;
+	padding-bottom: 50px;
+	padding-left: 50px;
+}
+.about p {
+	text-align: justify;
+	text-indent: 50px;
+}
+h1 p {
+	text-align: center;
+}
+.factsph{
+	background-color: orange;
+	text-align: left;
+	padding-top: 50px;
+	padding-right: 50px;
+	padding-bottom: 50px;
+	padding-left: 50px;
+}
+
+.button:link,.button:visited {
+  background-color: #f44336;
+  color: white;
+  padding: 14px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.button:hover, .button:active {
+  background-color: red;
+}
+
+.about-history {
+	background-image: url("history.jpg");
+	width: 100%;
+	height: 50%;
+	background-repeat: repeat;
+	background-size: cover;
+
+}
+.about-history h2{
+	padding-top: 100px;
+	text-align: center;
+	float: center;
+	color: white;
+	text-shadow: black 1px 0 10px;
+}
+.button{
+	float: center;
+}
+
+
+.about-geo{
+	background-image: url("geo.jpg");
+	width: 100%;
+	height: 50%;
+	background-repeat: no-repeat;
+	background-attachment: scroll;
+	background-size: cover;
+}
+.about-geo h2{
+	padding-top: 100px;
+	text-align: center;
+	float: center;
+	color: white;
+	text-shadow: black 1px 0 10px;
+}
+
+.about-demo{
+	background-image: url("demo.jpg");
+	width: 100%;
+	height: 50%;
+	background-repeat: repeat;
+	background-size: cover;
+}
+.about-demo h2{
+	padding-top: 100px;
+	text-align: center;
+	float: center;
+	color: white;
+	text-shadow: black 1px 0 10px;
+}
+.about-cult{
+	background-image: url("culture.jpg");
+	width: 100%;
+	height: 50%;
+	background-repeat: repeat;
+	background-size: cover;
+}
+.about-cult h2{
+	padding-top: 100px;
+	text-align: center;
+	float: center;
+	color: white;
+	text-shadow: black 1px 0 10px;
+}
+
+.about img{
+	max-width: 100%;
+	height: auto;
+}
+
+.wikitable td{
+	border-bottom: 1px solid #ddd;
+	padding: 10px;
+	text-align: center;
+}
+.wikitable{
+	margin-left: auto;
+	margin-right: auto;
+}
+
+
+.attractions {
+	
+	background-color: white;
+	width: 80%;
+	height: auto;
+	text-align: center;
+	margin: 0 auto;
+	padding-top: 50px;
+	padding-right: 50px;
+	padding-bottom: 50px;
+	padding-left: 50px;
+}
+
+.attractions img {
+	width: 100%;
+	height: auto;
+	padding: none;
+	text-align: center;
+	
+}
+
+.attractions2 {
+	background-color: white;
+	width: 80%;
+	height: auto;
+	text-align: center;
+	margin: 0 auto;
+	padding-top: 50px;
+	padding-right: 50px;
+	padding-bottom: 50px;
+	padding-left: 50px;
+}
+
+.attractions2 img {
+	width: 100%;
+	height: auto;
+	padding: none;
+	text-align: center;
+	
+}
+
+.attractions3 {
+	background-color: white;
+	width: 50%;
+	height: auto;
+	text-align: center;
+	margin: auto;
+	padding-top: 50px;
+	padding-right: 50px;
+	padding-bottom: 50px;
+	padding-left: 50px;
+}
+
+.attractions3 img {
+	width: 100%;
+	height: auto;
+	padding: none;
+	text-align: center;
+	
+}
+.attractions h1, .attractions2 h1, .attractions3 h1 {
+	border-bottom: 4px solid orange;
+	padding-bottom: 5px;
+}
+
+.attractions p, .attractions2 p, .attractions3 p {
+	text-align: justify;
+	text-indent: 20px;
+}
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 10px;
+}
+
+.tourist-vis-back header{
+	background-image: url("tour-bora.jpg");
+	width: auto;
+	height: auto;
+	background-repeat: no-repeat;
+	background-size: cover;
+
+}
+
+.tourist-min-back header {
+	background-image: url("tour-bora.jpg");
+	width: auto;
+	height: auto;
+	background-repeat: no-repeat;
+	background-size: cover;
+
+}
+
+.tourist-luz-back header {
+	background-image: url("home-mayon.jpg");
+	width: auto;
+	height: auto;
+	background-repeat: no-repeat;
+	background-size: cover;
+
+}
+
+.tourist-vis-back header h1, .tourist-luz-back header h1, .tourist-min-back header h1{
+	font-size: 70px;
+	padding-top: 200px;
+	padding-bottom: 400px;
+	text-align: center;
+	float: center;
+	color: white;
+	text-shadow: black 1px 0 10px;
+}
+	
+/* vid gallery */
+
+
+.vid-tile{
+	background-color: white;
+	width: 80%;
+	margin: auto;
+	padding: 50px;
+	
+}
+
+/* login page */
+.login{
+	background-color: white;
+	width: 50%;
+	padding: 50px;
+	border-radius: 25px;
+	margin: auto;
+}
+
+.login-form {
+	padding-bottom: 50px;
+	padding-top: 50px;
+	padding-right: 50px;
+	padding-left: 50px;
+	
+}
+.login-form form {
+  border: 3px solid #f1f1f1;
+}
+
+/* Full-width inputs */
+input[type=text], input[type=password] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+/* Set a style for all buttons */
+.login-form button {
+  background-color: #04AA6D;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+}
+
+/* Add a hover effect for buttons */
+.login-form button:hover {
+  opacity: 0.8;
+}
+
+/* Extra style for the cancel button (red) */
+.cancelbtn {
+  width: auto;
+  padding: 10px 18px;
+  background-color: none;
+}
+
+/* Center the avatar image inside this container */
+.imgcontainer {
+  text-align: center;
+  margin: 24px 0 12px 0;
+}
+
+/* Avatar image */
+.login-form img.avatar {
+  width: 40%;
+  border-radius: 50%;
+}
+
+/* Add padding to containers */
+.login-form {
+  padding: 16px;
+}
+
+/* The "Forgot password" text */
+span.psw {
+  float: right;
+  padding-top: 16px;
+}
+
+/* Change styles for span and cancel button on extra small screens */
+@media screen and (max-width: 300px) {
+  span.psw {
+    display: block;
+    float: none;
+  }
+  .cancelbtn {
+    width: 100%;
+  }
+}
